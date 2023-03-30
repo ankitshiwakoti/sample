@@ -3,14 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 #hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #141d2b;
+  width: 50%;
+  color: #2d405f;
+}
+
+/* #hero h1 {
   font-size: 48px;
   font-weight: 700;
   color: #141d2b;
   color: #2d405f;
   width: 50%;
-}
+} */
 
 #hero h2 {
   color: #466393;
@@ -32,6 +41,10 @@
 #hero .img {
   max-width: 50%;
   margin-top: 40px;
+}
+
+#hero .btn-get-started:hover {
+  background: #0a22f6;
 }
 
 .about {

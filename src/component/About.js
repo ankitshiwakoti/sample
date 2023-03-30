@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div className="container content">
       <div className="row ">
-        <div className="col-md-6 col-12">
+        <div className="col-md-6 col-12 ">
           <h3> Voluptatem dignissimos provident quasi</h3>
 
-          <p>
+          <p className="text-start">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
             aute irure dolor in reprehenderit
