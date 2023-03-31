@@ -66,10 +66,10 @@ const Features = () => {
         </div>
       </div>
       <div className="row mt-5 content">
-        <div className="col-md-5 col-12 pt-4">
+        <div className="col-md-5 col-12 order-md-1 order-2  pt-4">
           <img alt="image " className="img-fluid" src={features3} />
         </div>
-        <div className="col-md-7 col-12 pt-4">
+        <div className="col-md-7 col-12 order-md-2 order-1 pt-4">
           <h3>
             Sunt consequatur ad ut est nulla consectetur reiciendis animi
             voluptas
