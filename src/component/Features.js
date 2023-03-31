@@ -18,10 +18,10 @@ const Features = () => {
       </div>
 
       <div className="row mt-5 content">
-        <div className="col-md-5 col-12">
+        <div className="col-md-5 col-12 order-1 ">
           <img src={features1} alt="image" className="img-fluid" />
         </div>
-        <div className="col-md-7 col-12 pt-4">
+        <div className="col-md-7 col-12 pt-4 order-2">
           <h3>
             Voluptatem dignissimos provident quasi corporis voluptates sit
             assumenda.
@@ -47,7 +47,7 @@ const Features = () => {
         </div>
       </div>
       <div className="row mt-5 content">
-        <div className="col-md-7 col-12 pt-4 ">
+        <div className="col-md-7 col-12 order-md-1 order-2 pt-4 ">
           <h3>Corporis temporibus maiores provident</h3>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -61,15 +61,15 @@ const Features = () => {
             laborum
           </p>
         </div>
-        <div className="col-md-5 col-12 pt-4">
+        <div className="col-md-5 col-12 order-md-2 order-1 pt-4">
           <img src={features2} alt="image" className="img-fluid" />
         </div>
       </div>
       <div className="row mt-5 content">
-        <div className="col-md-5 col-12 order-md-1 order-2  pt-4">
+        <div className="col-md-5 col-12 order-md-1 order-1  pt-4">
           <img alt="image " className="img-fluid" src={features3} />
         </div>
-        <div className="col-md-7 col-12 order-md-2 order-1 pt-4">
+        <div className="col-md-7 col-12 order-md-2 order-2 pt-4">
           <h3>
             Sunt consequatur ad ut est nulla consectetur reiciendis animi
             voluptas
@@ -99,7 +99,7 @@ const Features = () => {
         </div>
       </div>
       <div className="row content mt-5">
-        <div className="col-md-7 col-12 pt-4">
+        <div className="col-md-7 col-12 pt-4 order-md-1 order-2">
           <h3>
             Quas et necessitatibus eaque impedit ipsum animi consequatur
             incidunt in
@@ -116,7 +116,7 @@ const Features = () => {
             laborum
           </p>
         </div>
-        <div className="col-md-5 col-12 pt-4">
+        <div className="col-md-5 col-12 order-md-2 order-1 pt-4">
           <img alt="image" className="img-fluid" src={features4} />
         </div>
       </div>
