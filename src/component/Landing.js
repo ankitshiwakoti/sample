@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
 import Clients from "./Clients";
+import Features from "./Features";
 import Hero from "./Hero";
 
 const Landing = () => {
@@ -95,6 +96,9 @@ const Landing = () => {
 
         <section id="clients" class="clients">
           <Clients />
+        </section>
+        <section id="features" className="features mt-5">
+          <Features />
         </section>
       </main>
     </>

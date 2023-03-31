@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container content">
       <div className="row ">
-        <div className="col-md-6 col-12 ">
+        <div className="col-lg-6 col-12 ">
           <h3> Voluptatem dignissimos provident quasi</h3>
 
           <p className="text-start">
@@ -17,7 +17,7 @@ const About = () => {
             About us <i class="bi bi-chevron-right"></i>{" "}
           </button>
         </div>
-        <div className="col-md-6 col-12  icon-boxes">
+        <div className="col-lg-6 col-12  icon-boxes">
           <div className=" row  ">
             <div className="col-md-6  icon-box ">
               <i class="bi bi-receipt"></i>

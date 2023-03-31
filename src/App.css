@@ -185,3 +185,28 @@
 }
 
 /* client section end */
+
+/* feature section start  */
+#features h2 {
+  color: #466393;
+  margin: 15px 0 0 0;
+  font-size: 30px;
+  color: #2d405f;
+}
+
+.features .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+.features .content ul li {
+  padding-bottom: 10px;
+}
+.features .content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
