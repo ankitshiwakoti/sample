@@ -483,3 +483,15 @@
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
+
+/* .butt:active {
+  background: rgba(193, 193, 193, 0.1);
+}
+
+.butt:focus {
+  background: rgba(193, 193, 193, 0.1);
+}
+
+.butt:hover {
+  background: rgba(193, 193, 193, 0.1);
+} */

@@ -2,17 +2,18 @@ import React from "react";
 
 const Accor = () => {
   return (
-    <div className="container my-5">
-      <div class="accordion accordion-flush pt-5" id="accordionFlushExample">
-        <div class="accordion-item border mt-2">
+    <div className="container my-5 ">
+      <div class="accordion accordion-flush pt-5 " id="accordionFlushExample">
+        <div class="accordion-item border  mt-2">
           <h2 class="accordion-header " id="flush-headingOne">
             <button
-              class="accordion-button collapsed  "
+              class="accordion-button  collapsed  "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
               aria-expanded="false"
               aria-controls="flush-collapseOne"
+              style={{ color: "black", fontSize: "18px", fontWeight: "bold" }}
             >
               Do i need technical knowledge to use your software?
             </button>
@@ -40,6 +41,7 @@ const Accor = () => {
               data-bs-target="#flush-collapseTwo"
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
+              style={{ color: "black", fontSize: "18px", fontWeight: "bold" }}
             >
               How secure is your platform?
             </button>
@@ -67,6 +69,7 @@ const Accor = () => {
               data-bs-target="#flush-collapseThree"
               aria-expanded="false"
               aria-controls="flush-collapseThree"
+              style={{ color: "black", fontSize: "18px", fontWeight: "bold" }}
             >
               How secure is your platform?
             </button>
@@ -94,6 +97,7 @@ const Accor = () => {
               data-bs-target="#flush-collapseFour"
               aria-expanded="false"
               aria-controls="flush-collapseFour"
+              style={{ color: "black", fontSize: "18px", fontWeight: "bold" }}
             >
               Do you offer free trail of your product ?
             </button>
@@ -122,6 +126,7 @@ const Accor = () => {
               data-bs-target="#flush-collapseFive"
               aria-expanded="false"
               aria-controls="flush-collapseFive"
+              style={{ color: "black", fontSize: "18px", fontWeight: "bold" }}
             >
               What security measures do you have in place to protect my data ?
             </button>
