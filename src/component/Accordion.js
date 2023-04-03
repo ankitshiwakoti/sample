@@ -11,7 +11,7 @@ const Accordion = () => {
         data-bs-touch="false"
         data-bs-interval="false"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner mt-5" style={{ borderRadius: "20px" }}>
           <div class="carousel-item active">
             <img
               src="https://mdbcdn.b-cdn.net/img/new/slides/040.webp"
@@ -29,7 +29,7 @@ const Accordion = () => {
           <div class="carousel-item">
             <img
               src="https://mdbcdn.b-cdn.net/img/new/slides/045.webp"
-              class="d-block w-100"
+              class="d-block w-100 rounded"
               alt="image"
             />
           </div>
@@ -39,8 +39,14 @@ const Accordion = () => {
           type="button"
           data-bs-target="#carouselExampleControlsNoTouching"
           data-bs-slide="prev"
+          style={{
+            width: "80px",
+            height: "60px",
+            marginTop: "220px",
+            backgroundColor: "white",
+          }}
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -48,6 +54,12 @@ const Accordion = () => {
           type="button"
           data-bs-target="#carouselExampleControlsNoTouching"
           data-bs-slide="next"
+          style={{
+            width: "80px",
+            height: "60px",
+            marginTop: "220px",
+            backgroundColor: "white",
+          }}
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
