@@ -3,9 +3,13 @@ import About from "./About";
 import Clients from "./Clients";
 import Features from "./Features";
 import Hero from "./Hero";
+import Steps from "./Steps";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
+import Team from "./Team";
+import Accordion from "./Accordion";
 
 const Landing = () => {
-  console.log("Test ho ");
   return (
     <>
       <header id="header">
@@ -93,12 +97,26 @@ const Landing = () => {
         <section id="about" className="about ">
           <About />
         </section>
-
         <section id="clients" class="clients">
           <Clients />
         </section>
         <section id="features" className="features mt-5">
           <Features />
+        </section>
+        <section id="steps" className="steps ">
+          <Steps />
+        </section>
+        <section id="services" class="services">
+          <Services />
+        </section>
+        <section id="testimonials" className="testimonials">
+          <Testimonials />
+        </section>
+        <section id="team" className="team">
+          <Team />
+        </section>
+        <section>
+          <Accordion />
         </section>
       </main>
     </>
