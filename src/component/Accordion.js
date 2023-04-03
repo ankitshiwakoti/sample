@@ -14,14 +14,14 @@ const Accordion = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+              src="https://mdbcdn.b-cdn.net/img/new/slides/040.webp"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/slides/046.webp"
+              src="https://mdbcdn.b-cdn.net/img/new/slides/048.webp"
               class="d-block w-100"
               alt="..."
             />
