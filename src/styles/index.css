@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(160, 233, 35, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 10px;
+  background-color: rgb(159, 159, 159);
+}
+
+.row {
+  display: block;
+  align-items: center;
+  margin: 30px;
+}
+
+.btnsecondary {
+  margin-top: 20px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: green;
+}
+
+.btnprimary {
+  margin-top: 20px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: Red;
+}/*# sourceMappingURL=index.css.map */

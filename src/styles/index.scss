@@ -1,0 +1,42 @@
+$blackColor: rgba(160, 233, 35, 0.1);
+$whiteColor:rgb(159, 159, 159);
+$primary:Red;
+$secondary:green;
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    
+   
+    background-color: $blackColor;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 10px;
+    
+    background-color: $whiteColor;
+}
+.row{
+    display: block;
+    align-items: center;
+    margin: 30px;
+}
+
+.btnsecondary{
+   margin-top: 20px;
+    height: 50px;
+    padding-left: 20px;
+    background-color:$secondary;
+}
+
+ .btnprimary{
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 20px;
+    background-color:$primary;
+ }

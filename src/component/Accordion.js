@@ -34,34 +34,33 @@ const Accordion = () => {
             />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControlsNoTouching"
-          data-bs-slide="prev"
-          style={{
-            width: "80px",
-            height: "60px",
-            marginTop: "220px",
-            backgroundColor: "white",
-          }}
+        <div
+          style={{ backgroundColor: "white", width: "40px", height: "60px" }}
         >
-          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev"
+            style={{ backgroundColor: "white" }}
+            width={60}
+            height={40}
+          >
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+        </div>
         <button
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControlsNoTouching"
           data-bs-slide="next"
-          style={{
-            width: "80px",
-            height: "60px",
-            marginTop: "220px",
-            backgroundColor: "white",
-          }}
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            class="carousel-control-next-icon"
+            style={{ backgroundColor: "white" }}
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
